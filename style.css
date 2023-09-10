@@ -1,0 +1,47 @@
+body{
+    background-color: oldlace;
+    background-image: url('jim.jpg');
+    background-size: cover;
+    position: relative;
+    
+}
+
+h1{
+    color: orangered;
+    /*position: absolute;*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%);
+    transform: translateY(50%);
+    box-sizing: border-box;
+}
+p{
+    height: 50px;
+    width: 100px;
+position: absolute;
+right: 20px;
+align-items: center;
+
+    border-radius: 50%;
+    background-color: aqua;
+    color: orange;
+}
+
+p span{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    
+    transform: translateX(10%);
+    margin-bottom:15px ;
+    margin-top: -10px;
+    
+}
+
